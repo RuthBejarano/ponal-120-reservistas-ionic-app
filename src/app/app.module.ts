@@ -11,6 +11,7 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { IntroPage } from '../pages/intro/intro';
+import { CheckinPage } from '../pages/checkin/checkin';
 import { TabsPage } from '../pages/tabs/tabs';
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     ContactPage,
     HomePage,
     TabsPage,
+    CheckinPage,
     IntroPage
   ],
   imports: [
@@ -33,6 +35,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     ContactPage,
     HomePage,
     TabsPage,
+    CheckinPage,
     IntroPage
   ],
   providers: [
