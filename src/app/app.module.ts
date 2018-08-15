@@ -13,6 +13,12 @@ import { HomePage } from '../pages/home/home';
 import { IntroPage } from '../pages/intro/intro';
 import { CheckinPage } from '../pages/checkin/checkin';
 import { TabsPage } from '../pages/tabs/tabs';
+import { StartPage } from '../pages/start/start';
+import { ObligationsPage } from '../pages/obligations/obligations';
+import { RightsPage } from './../pages/rights/rights';
+import { LawPage } from './../pages/law/law';
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -21,7 +27,11 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     TabsPage,
     CheckinPage,
-    IntroPage
+    IntroPage,
+    ObligationsPage,
+    RightsPage,
+    LawPage,
+    StartPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +46,11 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     TabsPage,
     CheckinPage,
-    IntroPage
+    IntroPage,
+    RightsPage,
+    ObligationsPage,
+    LawPage,
+    StartPage
   ],
   providers: [
     StatusBar,

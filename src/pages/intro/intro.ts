@@ -18,7 +18,7 @@ export class IntroPage {
 
    showSkip = true;
 
-  //@ViewChild('slides') slides: Slides;
+  @ViewChild('slides') slides: Slides;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage) {
   }

@@ -4,13 +4,16 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-    <ion-content>
-        <ion-list>
-          <button ion-item *ngFor="let item of Contenido" (click)="openNavDetailsPage(item)" icon-start>
-            <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}" item-start></ion-icon>
-            {{ item.title }}
-          </button>
-        </ion-list>
-      </ion-content>
-      <button ion-button block color="police" round (click)="otrapagina()">checkin</button>
-      </ion-content>
+  <div class="about-header">
+    <h2>Bienvenido señor Reservista</h2>
+    <p>Recuerde que son reservistas de las Fuerzas Militares y de Policía los colombianos desde el momento en que definan su situación militar hasta los 50 años de edad.</p>
+    <img src="../../assets/imgs/reservista.jpg">
+    <h2>Ley 1861 del 4 de agosto de 2017</h2>
+    <h5>"Por la cual se reglamenta el servicio de Reclutamiento, Control de Reservas y la Movilización" </h5>
+    <button color="police" ion-button (click)="otrapagina4()">ley 181 del 4 de agosto de 2017</button>
+    <button color="police" ion-button (click)="otrapagina1()">Derechos</button>
+    <button color="police" ion-button (click)="otrapagina2()">Deberes</button>
+    <button color="police" ion-button (click)="otrapagina3()">Registrarse</button>
+    
+  </div>
+</ion-content>

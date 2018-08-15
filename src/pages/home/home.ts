@@ -1,3 +1,6 @@
+import { LawPage } from './../law/law';
+import { ObligationsPage } from './../obligations/obligations';
+import { RightsPage } from './../rights/rights';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -18,7 +21,7 @@ export class HomePage {
         'title': 'Angular',
         'icon': 'angular',
         'description': 'A powerful Javascript framework for building single page apps. Angular is open source, and maintained by Google.',
-        'color': '#E63135'
+        'color': '#140c15'
       },
       {
         'title': 'CSS3',
@@ -48,7 +51,17 @@ export class HomePage {
 	  });
    }
 
-   
-otrapagina(){
-	this.navCtrl.push(CheckinPage);
-}}
+otrapagina4(){
+    this.navCtrl.push(LawPage);
+  }      
+otrapagina1(){
+  this.navCtrl.push(RightsPage);
+}
+
+otrapagina2(){
+  this.navCtrl.push(ObligationsPage);
+}
+otrapagina3(){
+  this.navCtrl.push(CheckinPage);
+}
+}
